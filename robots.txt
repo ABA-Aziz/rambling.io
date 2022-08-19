@@ -1,1 +1,1 @@
-Sitemap: https://fastpages.fast.ai/sitemap.xml
+Sitemap: https://aba-aziz.github.io/rambling.io/sitemap.xml
