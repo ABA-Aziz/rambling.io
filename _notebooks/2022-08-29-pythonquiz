@@ -1,0 +1,56 @@
+import getpass, sys
+
+def question_and_answer(prompt):
+    print("Question: " + prompt)
+    msg = input()
+    print("Answer: " + msg)
+    
+def question_with_response(prompt):
+    print("Question: " + prompt)
+    msg = input()
+    return msg
+
+questions = 3
+correct = 0
+
+print('Hello, ' + getpass.getuser() + " running " + sys.executable)
+print("You will be asked " + str(questions) + " questions.")
+question_and_answer("Are you ready to take a test?")
+
+rsp = question_with_response("Who is the character on the front page of this site?")
+if rsp == "kickhopper":
+    print(rsp + " is correct!")
+    correct += 1
+elif rsp == "kick hopper":
+        print(rsp + " is correct!")
+        correct +=1
+    elif rsp == "kamen rider kickhopper"
+            print(rsp + " is correct!")
+            correct +=1
+    elif rsp == "kamen rider kick hopper"
+            print(rsp + " is correct!")
+            correct +=1
+    elif rsp == "sou yaguruma"
+            print(rsp + " is correct!")
+            correct +=1
+    elif rsp == "yaguruma sou"
+            print(rsp + " is correct!")
+            correct +=1
+    else:
+        print(rsp + " is incorrect!")
+
+rsp = question_with_response("What is the name of this site?")
+if rsp == "rambling":
+    print(rsp + " is correct!")
+    correct += 1
+else:
+    print(rsp + " is incorrect!")
+
+rsp = question_with_response("What is (3^2 - 5)^0.5?")
+if rsp == "2":
+    print(rsp + " is correct!")
+    correct += 1
+else:
+    print(rsp + " is incorrect!")
+
+print(getpass.getuser() + " you scored " + str(correct) +"/" + str(questions))
