@@ -12,7 +12,7 @@ title: Development
 This is the timeline of progress on this site. Will be semi-regularly updated, so come back when you can!
 ## Basic formatting (for other cs students)
 
-You can use *italics*, **bold**, `code font text`, and create [links](https://en.wikipedia.org/wiki/Alan_Turing). Here's a footnote [^1]. Here's a horizontal rule:
+You can use *italics* by surrounding text with an asterisk on either side, **bold** by using two asterisks on either side, `code font text` by using ` on either side, and create [links](https://en.wikipedia.org/wiki/Alan_Turing). Here's a footnote [^1]. Here's a horizontal rule:
 
 
 ## Changelog
