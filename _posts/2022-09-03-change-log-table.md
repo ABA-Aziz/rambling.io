@@ -14,7 +14,6 @@ This is the timeline of progress on this site. Will be semi-regularly updated, s
 
 You can use *italics*, **bold**, `code font text`, and create [links](https://en.wikipedia.org/wiki/Alan_Turing). Here's a footnote [^1]. Here's a horizontal rule:
 
----
 
 ## Changelog
 
