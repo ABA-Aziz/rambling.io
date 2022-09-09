@@ -11,6 +11,17 @@
         
     
   
+    
+        ,"post1": {
+            "title": "An Example Markdown Post",
+            "content": "Development Timeline . Intro . This is the timeline of progress on this site. Will be semi-regularly updated, so come back when you can! . Basic formatting (for other cs students) . You can use italics, bold, code font text, and create links. Here’s a footnote [^1]. Here’s a horizontal rule: . . Changelog . Most recent additions: . Added quiz over knowledge of the site and random math question | Changed the icon on browser | . Removed Features: . Original icon on browser replaced with kickhopper.png | Original picture on home page. replaced with rider jump.png | Boxes and stuff . This is a philosophy I live my life by . . Give me an answer in fifteen nanoseconds …Ms. Lanzi (teacher of my friend Leonard Wright, 2004-) . . You can include info boxes Images . . Code . An Idea of the Code I do . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;23.36664289109&#39; print(546^0.5) . :D . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Timeline Table . Date Action . August 19, 2022 | Site was started | . August 22, 2022 | Updated ‘About Me’ page | . August 24, 2022 | Replaced icon on browser, Updated index | . August 30, 2022 | Added quiz on main page | . September 2, 2022 | Added changelog | .",
+            "url": "https://aba-aziz.github.io/rambling.io/markdown/2022/09/06/timelinemarkdown.html",
+            "relUrl": "/markdown/2022/09/06/timelinemarkdown.html",
+            "date": " • Sep 6, 2022"
+        }
+        
+    
+  
 
   
   
