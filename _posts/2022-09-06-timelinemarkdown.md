@@ -85,3 +85,4 @@ key: value
 | August 24, 2022 | Replaced icon on browser, Updated index |
 | August 30, 2022 | Added quiz on main page |
 | September 2, 2022 | Added changelog |
+| September 22, 2022 | Made video |
