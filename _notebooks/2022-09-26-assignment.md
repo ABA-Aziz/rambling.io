@@ -29,4 +29,4 @@ what
 
 ## Misc.
 
-We are all running a Scrum Board, as mentioned above, and 
+We are all running a Scrum Board, as mentioned above, and things are running smoothly so far.
