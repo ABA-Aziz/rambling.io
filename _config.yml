@@ -38,10 +38,10 @@ baseurl: "/rambling.io" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
-  social_links:
-    twitter: fastdotai
-    github: fastai
+  skin: dark
 
+social_links: 
+ {platform: github, user_url: "https://https://github.com/ABA-Aziz/rambling.io"}
 # Set this to true to get LaTeX math equation support
 use_math: 
 
