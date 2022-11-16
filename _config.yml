@@ -14,7 +14,7 @@ github_repo: "rambling.io"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
-url: "https://ABA-Aziz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://github.com/ABA-Aziz/rambling.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###########################################################
 #########  Special Instructions for baseurl ###############
@@ -38,14 +38,8 @@ baseurl: "/rambling.io" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
-<<<<<<< HEAD
-  skin: dark
-=======
-   skin: dark
->>>>>>> d8a857589b24ea5ff0f25ddd81dd1caf51573896
+  theme: dark
 
-social_links: 
- {platform: github, user_url: "https://https://github.com/ABA-Aziz/rambling.io"}
 # Set this to true to get LaTeX math equation support
 use_math: 
 
