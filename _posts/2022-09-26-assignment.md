@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: administration to decide on issues in the group
-categories: [markdown], [post], 
+categories: [markdown, post]
 title: Sociology
 ---
 # Repositories
