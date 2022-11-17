@@ -3,7 +3,7 @@
 toc: true
 layout: post
 description: how to do my part on the video
-categories: [markdown], [post], [project], [update]
+categories: [markdown, post, project, update]
 title: Vid Script (MY Part)
 
 ---

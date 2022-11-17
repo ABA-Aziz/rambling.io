@@ -1,9 +1,8 @@
 ---
-
 toc: true
 layout: post
 description: update on various things
-categories: [markdown], [post], 
+categories: [markdown, post] 
 title: Update 1.1
 
 ---
