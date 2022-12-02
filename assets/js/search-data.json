@@ -2,6 +2,50 @@
   
     
         "post0": {
+            "title": "Boolean_work",
+            "content": "{ “cells”: [ { “cell_type”: “code”, “execution_count”: 4, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “false n” ] } ], “source”: [ “grade1 = 90 n”, “grade2 = 65 n”, “grade3 = 60 n”, “grade4 = 75 n”, “grade5 = 95 n”, “if (grade1+grade2+grade3+grade4+grade5)/5 &gt; 80: n”, “ print(&quot;true&quot;) n”, “else: n”, “ print(&quot;false&quot;)” ] }, { “cell_type”: “code”, “execution_count”: 10, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “true n” ] } ], “source”: [ “if 1 &lt; 2 or 5 &lt; 12: n”, “ print(&quot;true&quot;) n”, “if not 24 &gt; 8: n”, “ print(&quot;false&quot;) n”, “if 10 &gt; 20 and 20 &lt; 10: n”, “ print(&quot;false&quot;)” ] }, { “cell_type”: “code”, “execution_count”: 17, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “859 n” ] } ], “source”: [ “num1 = 367 n”, “num2 = 492 n”, “sum = num1 + num2 n”, “if sum == 200: n”, “ print(&quot;200&quot;) n”, “else: n”, “ print(sum)” ] }, { “cell_type”: “code”, “execution_count”: 21, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “you will be paid 90k n” ] } ], “source”: [ “hours = 11 n”, “if hours &gt;= 8: n”, “ print(&quot;you will be paid 90k&quot;) n”, “else: n”, “ if hours &gt;= 10: n”, “ print(&quot;you will be paid 150k&quot;) n”, “ else: n”, “ if hours &lt; 8: n”, “ print(&quot;your salary will be 50k&quot;)” ] }, { “cell_type”: “code”, “execution_count”: 25, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “This is a good product. n” ] } ], “source”: [ “expired = False n”, “cost = 35 n”, “if cost &gt;= 25 and cost &lt; 50 and expired == False: n”, “ print(&quot;This is a good product.&quot;) n”, “else: n”, “ if expired == True: n”, “ print(&quot;This product is no good!&quot;) n”, “ else: n”, “ if cost &gt;= 50: n”, “ print(&quot;This is too expensive!&quot;) n”, “ else: n”, “ if cost &lt;= 25: n”, “ print (&quot;This is cheap&quot;)” ] }, { “cell_type”: “code”, “execution_count”: null, “metadata”: {}, “outputs”: [], “source”: [ “print(&quot;Are you enjoying this?&quot;) n”, “print(&quot;1. Yes. &quot;) n”, “if: n”, “ input = &quot;Yes&quot;” ] } ], “metadata”: { “kernelspec”: { “display_name”: “Python 3.8.10 64-bit”, “language”: “python”, “name”: “python3” }, “language_info”: { “codemirror_mode”: { “name”: “ipython”, “version”: 3 }, “file_extension”: “.py”, “mimetype”: “text/x-python”, “name”: “python”, “nbconvert_exporter”: “python”, “pygments_lexer”: “ipython3”, “version”: “3.8.10” }, “orig_nbformat”: 4, “vscode”: { “interpreter”: { “hash”: “916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1” } } }, “nbformat”: 4, “nbformat_minor”: 2 } .",
+            "url": "https://aba-aziz.github.io/rambling.io/2022/12/01/boolean_work.ipynb",
+            "relUrl": "/2022/12/01/boolean_work.ipynb",
+            "date": " • Dec 1, 2022"
+        }
+        
+    
+  
+    
+        ,"post1": {
+            "title": "Boleans and Conditionals",
+            "content": "Booleans . What is a Boolean? . A boolean is a data type with either a true or false value . Booleans and Binary . Both use 1 and 0 Booleans are only one bit Binary can be any number of bits to make any value . Must knows . only “true” or “false” . the AP exam will give a reference sheet . = . &lt; . = &lt;= . Logical Operators . AND OR NOT . Conditionals . Selection . Selection . What CollegeBoard calls conditionals . Algorithm . A finite set of instructions that acccomplish a specific task . Conditional Statements . “if” statements or “if else” statements, which have two outcomes. Conditional statements only have one. . Else will only execute if “if” is false. . Nested Conditionals . Conditionals inside conditionals for more outcomes . if etc: if etc2: whatever else: something something else: some other thing .",
+            "url": "https://aba-aziz.github.io/rambling.io/notes/2022/12/01/boolean-_notes.html",
+            "relUrl": "/notes/2022/12/01/boolean-_notes.html",
+            "date": " • Dec 1, 2022"
+        }
+        
+    
+  
+    
+        ,"post2": {
+            "title": "Title",
+            "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg questions = 3 correct = 0 print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;Who is the character on the front page of this site?&quot;) if rsp == &quot;kickhopper&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 elif rsp == &quot;kick hopper&quot;: print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;kamen rider kickhopper&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;kamen rider kick hopper&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;sou yaguruma&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;yaguruma sou&quot; print(rsp + &quot; is correct!&quot;) correct +=1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is the name of this site?&quot;) if rsp == &quot;rambling&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is (3^2 - 5)^0.5?&quot;) if rsp == &quot;2&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) .",
+            "url": "https://aba-aziz.github.io/rambling.io/2022/12/01/For-Loop-Hack.html",
+            "relUrl": "/2022/12/01/For-Loop-Hack.html",
+            "date": " • Dec 1, 2022"
+        }
+        
+    
+  
+    
+        ,"post3": {
+            "title": "Math and Algorithms",
+            "content": "Algorithms . A set of instructions to do a task . Sequencing . Do a task in the order it’s specified in. . Iteration . If a certain condition is true, then a certain step can be made true . Representation . Flowcharts and pseudocode . Flowcharts for decisions. . Oval = edpoint Arrow = relationship parallelogram - input and output rectangle - process diamond - decision . Arithmetic . Different operations . addition | . | subtraction | . | multiplication / - division // - modulus - remainder ** - exponent use variables as well as numbers follows order of operations (PEMDAS) | . | . Variables . ways to make variables numbers other variables result of an operation procedure call . Sequencing is important . Strings . A phrase in “quotation marks” . Subtrings . a part of a string . Comments .",
+            "url": "https://aba-aziz.github.io/rambling.io/notes/2022/11/29/math-notes.html",
+            "relUrl": "/notes/2022/11/29/math-notes.html",
+            "date": " • Nov 29, 2022"
+        }
+        
+    
+  
+    
+        ,"post4": {
             "title": "Math Hw",
             "content": "{ “cells”: [ { “cell_type”: “code”, “execution_count”: 1, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “20.4 n” ] } ], “source”: [ “Num1 = 50 n”, “Num2 = Num1 % 9 + 15 n”, “Num3 = Num2 / Num1 + (Num22) n”, “Num4 = Num3 + (Num1/5)-10 n”, “Result = Num4 - Num2 n”, “print(Result)” ] }, { “cell_type”: “code”, “execution_count”: 2, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “0 n” ] } ], “source”: [ “Num1 = 10 n”, “Num2 = Num1 % 3 * 4 n”, “Num1 = Num2 n”, “Num3 = Num1 * 3 n”, “Result = Num3 % 2 n”, “print(Result)” ] }, { “cell_type”: “code”, “execution_count”: 8, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “17 n” ] } ], “source”: [ “valueA = 4 n”, “valueB = 90 n”, “valueC = 17 n”, “valueB = valueC - valueA n”, “valueA = valueA10 n”, “if valueB &gt; 10: n”, “ print(valueC)” ] }, { “cell_type”: “code”, “execution_count”: 6, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “straight, brown, short n” ] } ], “source”: [ “type = &quot;curly, &quot; n”, “color = &quot;brown, &quot; n”, “length = &quot;short&quot; n”, “type = &quot;straight, &quot; n”, “hair = type + color + length n”, “print(hair)” ] }, { “cell_type”: “code”, “execution_count”: 13, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “Mr.Mortenson is very handsome n” ] } ], “source”: [ “noun = &quot;Mr.Mortenson &quot; n”, “adjective1 = &quot;handsome &quot; n”, “adjective2 = &quot;very &quot; n”, “verb = &quot;is &quot; n”, “abrev = noun n”, “yoda = abrev + verb + adjective2 + adjective1 n”, “print(yoda)” ] }, { “cell_type”: “code”, “execution_count”: 9, “metadata”: {}, “outputs”: [ { “name”: “stdout”, “output_type”: “stream”, “text”: [ “(‘choclate’, ‘vote’, 225) (‘rasin’, ‘vote’, 4.0) n” ] } ], “source”: [ “cookie = &quot;choclate&quot; n”, “cookie2 = &quot;rasin&quot; n”, “len1 = len(cookie) / 2 n”, “len2 = len(cookie2) * 45 n”, “vote1 = (cookie, &quot;vote&quot;, len2) n”, “vote2 = (cookie2, &quot;vote&quot;, len1) n”, “votes = vote1 + vote2 n”, “print(vote1, vote2)” ] } ], “metadata”: { “kernelspec”: { “display_name”: “Python 3.8.10 64-bit”, “language”: “python”, “name”: “python3” }, “language_info”: { “codemirror_mode”: { “name”: “ipython”, “version”: 3 }, “file_extension”: “.py”, “mimetype”: “text/x-python”, “name”: “python”, “nbconvert_exporter”: “python”, “pygments_lexer”: “ipython3”, “version”: “3.8.10” }, “orig_nbformat”: 4, “vscode”: { “interpreter”: { “hash”: “916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1” } } }, “nbformat”: 4, “nbformat_minor”: 2 } .",
             "url": "https://aba-aziz.github.io/rambling.io/2022/11/29/math-hw.ipynb",
@@ -12,18 +56,18 @@
     
   
     
-        ,"post1": {
-            "title": "Title",
-            "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg questions = 3 correct = 0 print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;Who is the character on the front page of this site?&quot;) if rsp == &quot;kickhopper&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 elif rsp == &quot;kick hopper&quot;: print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;kamen rider kickhopper&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;kamen rider kick hopper&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;sou yaguruma&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;yaguruma sou&quot; print(rsp + &quot; is correct!&quot;) correct +=1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is the name of this site?&quot;) if rsp == &quot;rambling&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is (3^2 - 5)^0.5?&quot;) if rsp == &quot;2&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) .",
-            "url": "https://aba-aziz.github.io/rambling.io/2022/11/29/For-Loop-Hack.html",
-            "relUrl": "/2022/11/29/For-Loop-Hack.html",
-            "date": " • Nov 29, 2022"
+        ,"post5": {
+            "title": "List Hw",
+            "content": "{ “cells”: [ { “cell_type”: “code”, “execution_count”: null, “metadata”: {}, “outputs”: [], “source”: [ “quesList = [&quot;What is the Computer Science term for a phrase conscribed inside a set of double quotation marks?&quot;, &quot;What name does the creator of Python share with a character from the Cars franchise?&quot;, &quot;If two trains leave the station at 5 PM and travel at the same speed for their entire journey, with Train A going North at 50 miles per hour and Train B going South at 65 miles per hour, how fast, in miles per hour, is Train A travelling at 7 PM?&quot;] n”, “answerList = [&quot;string&quot;, &quot;Guido&quot;, &quot;50&quot;] n”, “quesAmount=len(quesList) n”, “quesList &lt;= quesAmount n”, “ print(quesList[quesAmount]) n”, “ guess = input() n”, “ if guess == soluList(quesAmount): n”, “ score+=1 n”, “ print(&quot;Correct! Score: &quot;score) n”, “ else: n”, “ print(&quot;Incorrect! The correct answer was &quot; + score) n”, “ quesAmount += 1” ] } ], “metadata”: { “kernelspec”: { “display_name”: “Python 3.8.10 64-bit”, “language”: “python”, “name”: “python3” }, “language_info”: { “name”: “python”, “version”: “3.8.10” }, “orig_nbformat”: 4, “vscode”: { “interpreter”: { “hash”: “916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1” } } }, “nbformat”: 4, “nbformat_minor”: 2 } .",
+            "url": "https://aba-aziz.github.io/rambling.io/2022/11/28/list-hw.ipynb",
+            "relUrl": "/2022/11/28/list-hw.ipynb",
+            "date": " • Nov 28, 2022"
         }
         
     
   
     
-        ,"post2": {
+        ,"post6": {
             "title": "binary",
             "content": "Binary . Binary is the language that computers speak in, using a base 2 number system. It can be used to recognize numbers, characters, and colors. The way a base 2 number system works is something is either 1 or 0, and the placement determines the power of 2 used, starting with 0. 1 is binary for 1. 10 is binary for 2, 10110 is 22 etc. Most computers use an 8 bit binary, so it goes from 2^0 (1) to 2^7 (128). . Abstraction . Abstraction is the filtering of items that are irrelevant to a task. When the source code on a webpage is viewed (usually by pressing Ctrl+U on a Windows or Option+Cmnd+U on a Mac), much of the code is abstracted to show only what the webpage needs to show. . So What? . Binary and Abstraction work together to make computers work. ASCII, for example, abstracts 8 bits of binary to make characters, usually on a keyboard. The two are indispensible together. .",
             "url": "https://aba-aziz.github.io/rambling.io/markdown/post/binary/2022/11/17/binary.html",
@@ -34,7 +78,7 @@
     
   
     
-        ,"post3": {
+        ,"post7": {
             "title": "Vid Script (MY Part)",
             "content": "Script . Okay, let’s do this thing. We’re working on Jeopardy, everything is in progress. . Software Development . Life Cycle . We started with coming up with ideas. And by that I mean me and Leonard came up with ideas while Jonathan gave his opinions on some of them. We eventually decided on my idea of a Jeopardy-style game. We then spent a long while discussing the aesthetics and the questions. I started a concept sheet to come up with questions and ways to figure everything out. Of the 49 questions we ended up using, I wrote 41, Jonathan wrote 5 and Leonard wrote 3. We then programmed for format and databases. . Updates . We mark our progress through major breakthrougs. Uploading the sounds to use in the files, finishing the dictionary, etc. We mark the changelog through these. Version 1.0 is the initial thing. 1.1 is when we started uploading, 2.0 when the dictionary is done, and 3.0 when the sounds were added. . Agile Process . We searched up Jeopardy for how to make the board. When I was surfing the internet, I found the sounds we could use, and I’m pretty sure Toei doesn’t trademark those sounds because they’re from before 2012 so they’re not songs. . Requirements . Computer Specs . The game was mostly developed on a 2020 Lenovo Legion 5 on an i7 core. This is as much information that I could glean. . Tracking . I have a scrum board. . Speedrun Strats . I asked a bunch of people the questions we have to determine difficulty, and we held daily meetings over how to go over things. The Jeopardy theme song is copyrighted, for example, so we had to use other sounds. I got a bunch of sounds off the internet that I don’t think Toei will mind if we use, considering they haven’t taken down the videos yet, and the sounds are from 2003 and 2004. . Demo . Github Issues . We don’t have that. . Expectations . We have a table of buttons, and when you click one, it goes to a question that you must answer. If wrong, it plays the mp3 files “Standing By 1” and when correct, plays “Turn Up 1”. .",
             "url": "https://aba-aziz.github.io/rambling.io/markdown/post/project/update/2022/10/18/vidstuffig.html",
@@ -45,7 +89,7 @@
     
   
     
-        ,"post4": {
+        ,"post8": {
             "title": "2.0",
             "content": "Update 2.0 . Overview . Okay, it’s not actually version 2.0, but we got an API to do the thing. We’re currently trying to figure out how to categorize the difficulty of the questions. I tried asking some people who sit next to us, but results were…disappointing. I’m considering asking someone else, but I really don’t feel like doing that. . Work . API has been found. Trivia by API-Ninjas, which was found by our DevOp Leonard Wright. I’ve been on top of the Scrum Board, and I’m honestly not sure what Martin and Jonathan have done so far. Martin has volunteered to write a few of the backup questions for other rounds, but I feel that was mostly because he has done literally nothing and doesn’t want his grade to go down. He is a developer, though, so that should be fun for him. . Problems . We’ve been trying to find a way to get the whole thing to work. It pushes but doesn’t pull or vice versa. On a personal note, my github doesn’t accept things from here for some reason. So…yeah. .",
             "url": "https://aba-aziz.github.io/rambling.io/markdown/post/project/update/2022/10/13/update3.html",
@@ -56,7 +100,7 @@
     
   
     
-        ,"post5": {
+        ,"post9": {
             "title": "Update 1.1",
             "content": "Update 1.1 . Questions . For the final project the four of us have to do, we did a Jeopardy type game, but with 49 questions instead of 25. We all wrote them. And by that, I mean I wrote 41, Jonathan wrote 5, Leonard wrote 3, and Martin wrote 0. I’m not bitter. Nope. We still have to actually program it though, but I think the “tabulate” thing on Python should help with that. We also need to think of the aesthetics, because a silent game with no…vibes…is boring. . Work . I’ve been trying to find an API to do some work on. So far, my efforts have been fruitless, but I will persist, because if I want to advance in this whole thing then I will have to try. . AWS . AWS hates me. Can’t do anything about it in school wi fi or home wi fi. .",
             "url": "https://aba-aziz.github.io/rambling.io/markdown/post/2022/10/05/versiontwoupdate.html",
@@ -67,7 +111,7 @@
     
   
     
-        ,"post6": {
+        ,"post10": {
             "title": "Sociology",
             "content": "Repositories . Update 1.0 . My personal repository is the one you see here, along with one called “rambles” (not very creative, I know). Our group repository, named by our gracious DevOp Leonard Wright is called “Group Flask Portfolio APCSP T1”. I have voiced my opinions on the name, but what’s done is done. . gitignore . I don’t think we made one of these. This will be updated once I learn more information. The nature of my device and its battery often leaves me separated from my groupmates. I don’t think I made a personal one either . Issue Statements . Issues have been a staple of the group project since its inception. I myself am in charge of the Scrum Board. In my personal matters, I have uploaded a quiz game and a Scrum Board. . requirements . We all have a requirements.txt file in our repositories so that everything doesn’t die . Forks . what . Misc. . We are all running a Scrum Board, as mentioned above, and things are running smoothly so far. .",
             "url": "https://aba-aziz.github.io/rambling.io/markdown/post/2022/09/26/assignment.html",
@@ -78,7 +122,7 @@
     
   
     
-        ,"post7": {
+        ,"post11": {
             "title": "Week 3 JavaScript Quiz",
             "content": "The Questions and possible answers me and Leonard Wright made for the quiz. We began with planning a topic, and then discussing what would be good options to use, and the answers, one correct, three incorrect . Quiz Qs. . 1) What is the Capital of Iceland? a. &quot;Reykjavik&quot; b. “Kopavogur” c. “Akureyri” d. “Hafnarfjoerdur” 2) What is the capital of Brasil? a. “Rio di Janerio” b. &quot;Brasilia&quot; c. “Sao Paulo” d. “Lisbon” 3) What is the capital of Pakistan? a. “Lahore” b. “Karachi” c. &quot;Islamabad&quot; d. “Mumbai” . The Process . We spent the first day just working on the design of the whole thing, picking countries, finding cities, debating on how to spell Bras/zil, etc. . We then started work on the code itself. While it mostly went by without a hitch, we hit a roadblock near the end. The results page wouldn’t show your results! It would show things like 0/3, __/3, and even undefined/3. After nearly a full day of trying to rectify the problem, using code that wasn’t even offered to us, and asking others on Slack, we figured out it was because the results were decided before the test started! So, I figured out if we made getting to the results its own event, we could control when the results are recorded. Leonard made it when you mouseover the whole thing, and voila! A 3 question quiz about capitals of the world!! .",
             "url": "https://aba-aziz.github.io/rambling.io/notes/javascript_quiz",
@@ -89,7 +133,7 @@
     
   
     
-        ,"post8": {
+        ,"post12": {
             "title": "An Example Markdown Post",
             "content": "Development Timeline . Intro . This is the timeline of progress on this site. Will be semi-regularly updated, so come back when you can! . Basic formatting (for other cs students) . You can use italics, bold, code font text, and create links. Here’s a footnote [^1]. Here’s a horizontal rule: . . Changelog . Most recent additions: . Added quiz over knowledge of the site and random math question | Changed the icon on browser | . Removed Features: . Original icon on browser replaced with kickhopper.png | Original picture on home page. replaced with rider jump.png | Boxes and stuff . This is a philosophy I live my life by . . Give me an answer in fifteen nanoseconds …Ms. Lanzi (teacher of my friend Leonard Wright, 2004-) . . You can include info boxes Images . . Code . An Idea of the Code I do . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;23.36664289109&#39; print(546^0.5) . :D . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Timeline Table . Date Action . August 19, 2022 | Site was started | . August 22, 2022 | Updated ‘About Me’ page | . August 24, 2022 | Replaced icon on browser, Updated index | . August 30, 2022 | Added quiz on main page | . September 2, 2022 | Added changelog | . September 22, 2022 | Made video | .",
             "url": "https://aba-aziz.github.io/rambling.io/markdown/2022/09/06/timelinemarkdown.html",
