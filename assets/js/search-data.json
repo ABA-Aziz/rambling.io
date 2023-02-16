@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Title",
+            "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg questions = 3 correct = 0 print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;Who is the character on the front page of this site?&quot;) if rsp == &quot;kickhopper&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 elif rsp == &quot;kick hopper&quot;: print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;kamen rider kickhopper&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;kamen rider kick hopper&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;sou yaguruma&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;yaguruma sou&quot; print(rsp + &quot; is correct!&quot;) correct +=1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is the name of this site?&quot;) if rsp == &quot;rambling&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is (3^2 - 5)^0.5?&quot;) if rsp == &quot;2&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) .",
+            "url": "https://aba-aziz.github.io/rambling.io/2023/02/15/For-Loop-Hack.html",
+            "relUrl": "/2023/02/15/For-Loop-Hack.html",
+            "date": " • Feb 15, 2023"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Luke's Grading Review Ticket",
             "content": "Overview . 0/1 Abdullah has some basic work done for his project. There is a limited amount of Javascript for the beginnings of an asteroid game as well as image assets he has prepared to use in the game. Presently he is not able to display it but there are sections of his code that would function if he could. .",
             "url": "https://aba-aziz.github.io/rambling.io/post/markdown/2023/02/09/luke-grade.html",
@@ -12,22 +23,11 @@
     
   
     
-        ,"post1": {
-            "title": "Title",
-            "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg questions = 3 correct = 0 print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;Who is the character on the front page of this site?&quot;) if rsp == &quot;kickhopper&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 elif rsp == &quot;kick hopper&quot;: print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;kamen rider kickhopper&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;kamen rider kick hopper&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;sou yaguruma&quot; print(rsp + &quot; is correct!&quot;) correct +=1 elif rsp == &quot;yaguruma sou&quot; print(rsp + &quot; is correct!&quot;) correct +=1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is the name of this site?&quot;) if rsp == &quot;rambling&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What is (3^2 - 5)^0.5?&quot;) if rsp == &quot;2&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) .",
-            "url": "https://aba-aziz.github.io/rambling.io/2023/02/08/For-Loop-Hack.html",
-            "relUrl": "/2023/02/08/For-Loop-Hack.html",
-            "date": " • Feb 8, 2023"
-        }
-        
-    
-  
-    
         ,"post2": {
-            "title": "Asteroids",
-            "content": "&lt;!doctype html&gt; . JavaScript Asteroids &lt;/link&gt; &lt;/meta&gt; &lt;/meta&gt; . .",
-            "url": "https://aba-aziz.github.io/rambling.io/2023/01/31/asteroids.html",
-            "relUrl": "/2023/01/31/asteroids.html",
+            "title": "Fourzeroids",
+            "content": "&lt;!doctype html&gt; &lt;&gt;&lt;html lang=&quot;en&quot;&gt; &lt;head&gt; JavaScript Asteroids &lt;/link&gt; &lt;/meta&gt; &lt;/meta&gt; &lt;/head&gt; &lt;/html&gt; . function preload() {shipImage = loadImage(&#39;fourze.png&#39;)}; particleImage = loadImage(&#39;explosion.png&#39;); bulletImage = loadImage(&#39;drill.webp&#39;); for (var i = 0; i &lt; /&gt; 3; i++){ var asteroidImage = loadImage(&#39;meteorRidewatch&#39; + i +&#39;.png&#39;) asteroidImages.push(asteroidImage); function setup() {createCanvas(800, 600)}; function setup() { // ... ship = createSprite(width / 2, height / 2)}; ship.maxSpeed = 6; ship.friction = 0.01; ship.addImage(&#39;normal&#39;, shipImage); } function draw() {background(0)}; drawSprites(); if (keyDown(LEFT_ARROW)) {ship.rotation -= 4}; if (keyDown(RIGHT_ARROW)) {ship.rotation += 4}; if (keyDown(UP_ARROW)) {ship.addSpeed(0.35, ship.rotation)}; if (keyWentDown(&#39;a&#39;)) { var bullet = createSprite(ship.position.x, ship.position.y); bullet.addImage(bulletImage); bullets.add(bullet); bullet.setSpeed(10 + ship.getSpeed(), ship.rotation); bullet.life = 30; for (var i = 0; i &lt; /&gt; 8; i++);{ } var sprite = allSprites[i]; if (sprite.position.x &lt; /&gt; -margin) {sprite.position.x = width + margin}; if (sprite.position.x &gt; width + margin) {sprite.position.x = -margin}; asteroids.overlap(ship, asteroidHit); asteroids.overlap(bullets, asteroidHit); } var asteroids; var bullets; function setup() {asteroids = new Group()}; bullets = new Group(); function createAsteroid(type, x, y) { var asteroid = createSprite(x, y); var image = asteroidImages[floor(random(0, 3))]; asteroid.addImage(meteorRidewatch.png); asteroid.setSpeed(2.5 - type / 2, random(360)); asteroid.rotationSpeed = 0.75; asteroid.type = type; } if (type === 2) {asteroid.scale = 0.7}; if (type === 1) {asteroid.scale = 0.35}; asteroids.overlap(ship, asteroidHit); asteroids.overlap(bullets, asteroidHit); asteroid.mass = asteroid.scale + 2; asteroid.setCollider(&#39;circle&#39;, 0, 0, 50); asteroids.add(asteroid); return asteroid; function setup() { for (var i = 0; i &lt; /&gt; 8; i ++) { } var angle = random(360); var x = width / 2 + 1000 * cos(radians(angle)); var y = height / 2 + 1000 * sin(radians(angle)); createAsteroid(3, x, y); } function asteroidHit(asteroid, sprite) { if (sprite.removed) { return; } } var margin = 40; with app.app_context(): preload(); &lt;/script&gt;&lt;/&gt; .",
+            "url": "https://aba-aziz.github.io/rambling.io/2023/01/31/fourzeroids.html",
+            "relUrl": "/2023/01/31/fourzeroids.html",
             "date": " • Jan 31, 2023"
         }
         
