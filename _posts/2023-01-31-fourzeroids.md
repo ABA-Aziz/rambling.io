@@ -1,3 +1,11 @@
+---
+toc: false
+layout: post
+description: an Asteroids game
+categories: [markdown, javascript]
+title: Fourzeroids
+---
+
 <!doctype html>
   <><html lang="en">
     <head>
