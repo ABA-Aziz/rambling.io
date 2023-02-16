@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: default
 description: an Asteroids game
 categories: [markdown, javascript]
 title: Fourzeroids
