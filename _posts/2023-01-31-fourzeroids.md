@@ -10,7 +10,9 @@ title: Fourzeroids
       var shipImage;
       var bulletImage;
       var particleImage;
-      var asteroidImages = [];
+      var asteroidImages = loadImage('meteorRidewatch' + i +'.png');
+      asteroidImages.push(asteroidImage);
+      function setup() {createCanvas(800, 600)};
 
       function preload() {shipImage = loadImage('fourze.png')};
       particleImage = loadImage('explosion.png');
@@ -18,8 +20,6 @@ title: Fourzeroids
       
 
       for (var i = 0; i < /> 3; i++){ 
-      var asteroidImage = loadImage('meteorRidewatch' + i +'.png')
-      asteroidImages.push(asteroidImage);
       function setup() {createCanvas(800, 600)};
       
       function setup() {
