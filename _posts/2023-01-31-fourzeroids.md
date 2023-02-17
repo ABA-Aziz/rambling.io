@@ -7,7 +7,7 @@ title: Fourzeroids
 ---
 <script>
       console.log('Fourzeroids');
-      var shipImage;
+      var shipImage = loadImage('fourze');
       var bulletImage;
       var particleImage;
       var asteroidImages = loadImage('meteorRidewatch' + i +'.png');
