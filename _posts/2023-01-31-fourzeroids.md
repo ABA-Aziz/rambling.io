@@ -5,19 +5,7 @@ description: an Asteroids game
 categories: [markdown, javascript]
 title: Fourzeroids
 ---
-
-<!doctype html>
-  <><html lang="en">
-    <head>
-      <meta charset="utf-8">
-        <meta name="viewport" content="width = device-width, intial-scale = 1">
-          <title>JavaScript Asteroids</title>
-          <link rel="stylesheet" type="text/css" href="style.css"></link>
-          <script src="asteroids.js"></script>
-        </meta>
-      </meta>
-    </head>
-  </html><script>
+<script>
       console.log('Fourzeroids');
       var shipImage;
       var bulletImage;
@@ -111,4 +99,4 @@ title: Fourzeroids
       with app.app_context():
       preload();
 
-    </script></>
+    </script>
